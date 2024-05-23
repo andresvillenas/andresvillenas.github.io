@@ -6,10 +6,12 @@ comments: true
 published: true
 categories: ["blog", "archives"]
 tags: ["Welcome"]
-permalink: ["/post/my-first-post"]
+permalink: "/post/my-first-post"
 ---
-<!-- more -->
-{% include imported_disclaimer.html %}
+<!-- more -->
+
+{% include imported_disclaimer.html %}
+
 <p>Welcome to my first blog post.</p>
 <p>The plan is to write about things I enjoy to learn and teach, mostly about software development and entrepreneurship.</p>
 <p>See you soon in the digital neighborhood!</p>
