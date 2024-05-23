@@ -6,10 +6,12 @@ comments: true
 published: true
 categories: ["blog", "archives"]
 tags: ["C#", "Interactive"]
-permalink: ["/post/interactive-c"]
+permalink: "/post/interactive-c"
 ---
-<!-- more -->
-{% include imported_disclaimer.html %}
+<!-- more -->
+
+{% include imported_disclaimer.html %}
+
 <p>Probably as a DotNet developer, you have worked in a portion of code that you wanted to test separately, so you can&nbsp;check if it will work as you think. Unfortunately, DotNet languages have been known as languages that need compilation prior to be executed, therefore the results are obtained after the project is compiled and run.</p>
 <p>However, a set of new features of the DotNet Compiler Platform (codename Roslyn) allow to execute portions of c# code directly in the new compiler. This new interactive compiler (csi.exe) is a REPL (read-eval-print-loop) environment that processes expressions you enter to it, line by line.</p>
 <p>There are two ways to use the interactive compiler:&nbsp;</p>
