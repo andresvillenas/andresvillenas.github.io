@@ -1,1 +1,5 @@
-<p>Hello World!</p>
+---
+layout: index
+title: Home
+show_ads: true
+---
